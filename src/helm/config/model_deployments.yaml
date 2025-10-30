@@ -1888,6 +1888,26 @@ model_deployments:
       args:
         pretrained_model_name_or_path: openai-community/gpt2
 
+  - name: huggingface/gpt2-large
+    model_name: huggingface/gpt2-large
+    tokenizer_name: huggingface/gpt2-large
+    max_sequence_length: 1024
+    max_request_length: 1025
+    client_spec:
+      class_name: "helm.clients.huggingface_client.HuggingFaceClient"
+      args:
+        pretrained_model_name_or_path: openai-community/gpt2-large
+
+  - name: huggingface/gpt2-medium
+    model_name: huggingface/gpt2-medium
+    tokenizer_name: huggingface/gpt2-medium
+    max_sequence_length: 1024
+    max_request_length: 1025
+    client_spec:
+      class_name: "helm.clients.huggingface_client.HuggingFaceClient"
+      args:
+        pretrained_model_name_or_path: openai-community/gpt2-medium
+
   ## OpenThaiGPT
   - name: huggingface/openthaigpt-1.0.0-7b-chat
     model_name: openthaigpt/openthaigpt-1.0.0-7b-chat

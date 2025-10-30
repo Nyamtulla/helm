@@ -2806,6 +2806,24 @@ models:
     release_date: 2019-02-14
     tags: [TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG]
 
+  - name: huggingface/gpt2-large
+    display_name: GPT-2 Large (774M)
+    description: GPT-2 Large (774M parameters) is a transformer model trained on a large corpus of English text in a self-supervised fashion. This is the large variant of GPT-2 ([paper](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)).
+    creator_organization_name: OpenAI
+    access: open
+    num_parameters: 774000000
+    release_date: 2019-02-14
+    tags: [TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG]
+
+  - name: huggingface/gpt2-medium
+    display_name: GPT-2 Medium (355M)
+    description: GPT-2 Medium (355M parameters) is a transformer model trained on a large corpus of English text in a self-supervised fashion. This is the medium variant of GPT-2 ([paper](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)).
+    creator_organization_name: OpenAI
+    access: open
+    num_parameters: 355000000
+    release_date: 2019-02-14
+    tags: [TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG]
+
 
   ## GPT 3 Models
   # The list of models can be found here: https://beta.openai.com/docs/engines/gpt-3
